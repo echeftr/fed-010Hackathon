@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/0b9a1c3913.js" crossorigin="anonymous"></script>
+    <title>Simple Food Site</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header" class="grid">
+
+        <div class="container">
+            <div id="branding">
+                <img id="logo-top" src="/images/Logo-snellesite-wh.png" alt="logo white">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html#foodtips">Food tips</a></li>
+                    <li><a href="index.html#inspiration">Inspiration</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- main area -->
+    <div id="main">
+        <!-- Form Contact -->
+        <div class="container-form">
+            <h1>Neem <span class="highlight">contact</span> met ons op </h1>
+            <div class="wrapper">
+                <div class="company-info">
+                    <img id="logo-c" src="/images/Logo-snellesite-bl.png" alt="Simple Food Site logo black">
+                    <ul>
+                        <li><i class="fa fa-road"></i>Straatnaam 1000</li>
+                        <li><i class="fa fa-city"></i>Nijmegen</li>
+                        <li><i class="fa fa-phone"></i>+3112344556</li>
+                        <li><i class="fa fa-envelope"></i>hello@simplefood.com</li>
+                    </ul>
+                </div>
+                <!-- form -->
+                <div class="contact-wrapper">
+                    <form class="my-form" name="contact" method="POST" data-netlify="true">
+                        <div class="form-group">
+                            <label>Naam: </label><br>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email: </label><br>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label>Bericht: </label><br>
+                            <textarea name="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <input class="btn" type="submit" value="Verzenden">
+                    </form>
+                </div>
+                </main>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- container einde -->
+    </div>
+
+
+    <!-- footer -->
+    <footer id="main-footer" class="grid">
+        <div id="branding">
+            <p> a Healthy Foodie day</p>
+        </div>
+        <!-- <div>by <a href="hindex.html">Simple</a></div> -->
+        <div id="branding">
+            <p>by <a href="index.html">Simple<span class="highlight">Food</span> Site</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
